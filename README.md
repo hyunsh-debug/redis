@@ -30,9 +30,9 @@
    2. mv redis.conf ../conf/redis_slave_6379.conf
    3. mv sentinel.conf ../conf/redis_master_6379.conf
 
-5. 임시 디렉토리 삭제
+5. 미사용 디렉토리 삭제
    1. cd /sw/home/redis
-   2. rm -rf temp
+   2. rm -rf redis-7.4.5.tar.gz redis-7.4.5
 
 ### 기동 및 중지 스크립트
 
