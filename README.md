@@ -1,13 +1,13 @@
 # Redis 설치 및 구성
 
-### 환경
+### [환경]
 
 - OS: CentOS 7.9
 - HOME_DIR: /sw/home/redis
 - Redis-version: 7.4.5
 - Redis-HA: replication(master-salve) + sentinel
 
-### 설치
+### [설치]
 
 1. 사전작업
 
@@ -34,7 +34,7 @@
    1. cd /sw/home/redis
    2. rm -rf redis-7.4.5.tar.gz redis-7.4.5
 
-### 기동 및 중지 스크립트
+### [기동 및 중지 스크립트]
 
 #### redis 기동(startup_redis_6379.sh)
 
@@ -120,7 +120,7 @@ fi
 
 ```
 
-### config
+### [config]
 
 #### master 노드
 
